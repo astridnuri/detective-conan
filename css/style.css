@@ -1,3 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Manufacturing+Consent&display=swap');
+
 body {
-    background-color: mistyrose;
+    background-color: #F2D1B3;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background-color: #D9560B;
+    padding: 20px;
+    color:#361410;
+}
+
+header img {
+    width: 300px;
+    border: 20px solid #BF8563;
+    border-radius: 50%;
+}
+
+header h1 {
+    font-family: "Manufacturing Consent", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    margin: 10px 0 20px 0;
 }
