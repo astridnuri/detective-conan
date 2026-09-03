@@ -16,10 +16,16 @@ header {
     color:#361410;
 }
 
-header img {
+header .pfp {
     width: 300px;
+    height: 300px;
     border: 20px solid #BF8563;
     border-radius: 50%;
+    background-image: url("./../img/detective-conan.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: 0 auto;
 }
 
 header h1 {
