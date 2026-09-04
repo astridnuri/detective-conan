@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Manufacturing+Consent&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manufacturing+Consent&family=Sniglet:wght@400;800&display=swap');
+
+.person-name {
+    font-style: italic;
+    text-decoration: underline;
+}
 
 body {
     background-color: #F2D1B3;
@@ -11,9 +17,11 @@ html, body{
 
 header {
     text-align: center;
+    /* background-image: url(./../img/detective-conan-banner.jpg); */
     background-color: #D9560B;
     padding: 20px;
-    color:#361410;
+    color:#0D2340;
+    /* color:#361410; */
 }
 
 header .pfp {
@@ -28,10 +36,60 @@ header .pfp {
     margin: 0 auto;
 }
 
-header h1 {
+h1, h2 {
+    /* color: white; */
     font-family: "Manufacturing Consent", system-ui;
     font-weight: 400;
     font-style: normal;
     font-size: 60px;
     margin: 10px 0 20px 0;
+    /* -webkit-text-stroke: 1px white; */
+}
+
+h2 {
+    font-size: 50px;
+}
+
+
+main{
+    text-align: center;
+    width: 800px;
+    margin: 40px auto;
+    /* padding: 20px; */
+}
+
+main h2{
+    font-size: 36px;
+}
+
+main p, ol, ul {
+    font-family: "Sniglet", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+main img {
+    height: 400px;
+    margin: 10px;
+}
+
+main figcaption {
+    font-size: 18px;
+    font-style: italic;
+}
+
+footer {
+    text-align: center;
+    /* color: F2D1B3; */
+    font-weight: normal;
+    background-color: #0D2340;
+    padding: 40px;
+}
+
+footer p{
+    color: #F2D1B3;
+    font-family: sans-serif;
 }
