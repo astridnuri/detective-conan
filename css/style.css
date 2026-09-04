@@ -6,6 +6,16 @@
     text-decoration: underline;
 }
 
+#judul{
+    text-align: right;
+    padding-right: 300px;
+    color: white;
+    font-size: 100px;
+    height: auto;
+    line-height: 1;
+    text-shadow: 10px 10px #260E0C;
+}
+
 body {
     background-color: #F2D1B3;
 }
@@ -17,12 +27,11 @@ html, body{
 
 header {
     text-align: center;
-    /* background-image: url(./../img/detective-conan-banner.jpg); */
+    background-image: url(./../img/detective-conan-banner.jpg);
     background-color: #D9560B;
     padding: 20px;
     color:#0D2340;
-    /* color:#361410; */
-}
+ }
 
 header .pfp {
     width: 300px;
