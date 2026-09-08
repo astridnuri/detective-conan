@@ -68,7 +68,7 @@ main{
     text-align: center;
     max-width: 800px;
     margin: 40px auto;
-    /* padding: 20px; */
+    padding: 20px;
 }
 
 main h2{
@@ -87,6 +87,7 @@ main p, ol, ul {
 main img {
     height: 400px;
     margin: 10px;
+    max-width: 800px;
 }
 
 main figcaption {
