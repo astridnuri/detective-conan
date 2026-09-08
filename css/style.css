@@ -82,6 +82,11 @@ h2 {
         height: 200px;
     }
 
+    header .pfp.ran {
+    background-image: url("./../img/ran-brown.jpg");
+    background-position: 0 0;
+    }
+
     h2 {
         font-size: 30px;
     }
